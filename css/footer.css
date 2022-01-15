@@ -1,0 +1,285 @@
+.footer-all{
+  height: auto;
+  background:#353738 ;
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+}
+
+.footer-all p{
+  font-weight: 400;
+  font-family: "Lora", serif;
+  font-size: 16px;
+
+}
+.six-pic{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.pic{
+  display: block;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: auto;
+}
+
+.list{
+  width: inherit;
+  display: flex;
+  justify-content: start; 
+}
+.list ul{
+  width: 90%;
+  columns: 2;
+  margin-top: 10%;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+.list ul li{
+  display: block;
+  margin-bottom: 7px;
+  padding-left: 20px;
+
+}
+
+.list li::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  vertical-align: middle;
+  margin-right: 10%;
+}
+.list li a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  font-size: 5px;
+  transition: 0.5;
+}
+
+.list li a:hover{
+  color: #777777;
+}
+.footer-menu{
+  margin: 20px;
+}
+
+.footer-menu i{
+  font-size: 5px;
+  color:rgba(255, 255, 255, 0.5);
+  margin: 2%;
+}
+.footer-menu p{
+  margin-bottom:10px;
+  line-height: 20px;
+}
+.footer-menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  
+}
+
+.footer-menu a:hover{
+  color:rgba(255, 255, 255, 0.5);
+}
+.icon{
+  margin: 20px auto;
+}
+.border{
+  width: 40px;
+  height: 40px;
+  border:1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 5px;
+  padding: 10px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.icon i:hover{
+  color:white;
+  border:1px solid white;
+}
+
+.footer-end {
+  display: block;
+  background: #353738 ;
+  width:100%;
+  height: 70px;
+  text-align: center;
+  border-top:1px solid rgba(255, 255, 255, 0.5);
+  /* margin: auto; */
+}
+.footer-end p{
+  font-size:8px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Lora", serif;
+  margin: 20px auto;
+  display: block;
+  z-index: 9999;
+}
+
+@media (min-width:768px){
+  .footer-all{
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    padding-left: 5%;
+    text-align: left;
+  }
+
+  .footer-all p{
+    text-align: left;
+    margin-bottom: 5%;
+    font-size: calc(16px + 0.2em);
+  }
+  .six-pic{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin:5% 0;
+    }
+    .footer-left{
+      width: 50%;
+      float: left;
+    }
+    .footer-left p{
+      margin: 0;
+    }
+    .list{
+      width: 100%;
+      height: auto;
+    }
+    .list ul li{
+      margin-bottom: 10%;
+    }
+
+    .list ul a{
+      font-size: calc(5px + 0.7em);
+    }
+    .footer-left p{
+      text-align: left;
+    }
+    .footer-right{
+      width: 50%;
+      display: flex;
+      flex-direction:column;
+      justify-content: start;
+      padding: -1%;
+      
+    }
+    .footer-right p{
+      margin-bottom: 10%;
+    }
+    .footer-menu{
+      width: 65%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+    .footer-menu p{
+      display: block;
+    }
+    .footer-menu a{
+      font-size: calc(13px + 0.2em);
+      vertical-align: middle;
+  
+    }
+    .footer-menu i{
+      margin-right: 5%;
+    }
+    .icon{
+      margin:0;
+    }  
+
+
+    .footer-end p{
+      text-align: center;
+
+    }
+}
+
+@media (min-width:1200px){
+  .footer-all{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+  }
+
+  .footer-pic{
+    width: 30%;
+    height:350px;
+  }
+
+  .six-pic{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .footer-list{
+    width: 70%;
+    height:350px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-left{
+    width: 50%;
+  }
+  .footer-right{
+    width: 50%;
+  }
+
+  .footer-left{
+    margin-left:5% ;
+  }
+  .list li a{
+    font-size: 15px;
+  }
+
+  .pic{
+    margin: 0;
+  }
+
+  .list ul{
+    margin-top: 5%;
+  }
+
+  .list ul li{
+    margin-bottom: 5%;
+    padding-left: 0;
+  }
+
+  .footer-right p{
+    margin-bottom: 5%;
+  }
+
+  .footer-menu{
+    width: 60%;
+  }
+
+  .footer-menu a{
+    font-size: 15px;
+  }
+
+  .footer-end p{
+    font-size: 15px;
+  }
+}

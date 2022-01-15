@@ -1,0 +1,417 @@
+.fixed-top{
+  width: 100%;
+  background: white;
+  position: fixed;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.left{
+  display: flex;
+}
+
+.b-left{
+  display: none;
+}
+.left img{
+  vertical-align: middle;
+  display: block;
+}
+
+.hamburger{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+.hamburger span{
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background: black;
+    position: relative;
+
+}
+
+.hamburger span::before{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top:-10px;
+  left: 0;
+}
+
+
+.hamburger span::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom:-10px;
+  left: 0;
+}
+
+.sidebar-position{
+  position: relative;
+}
+
+
+#sidebar{
+  height: 100%;
+  width: 70%;
+  background: white;
+  position: absolute;
+  top: 40px;
+  left:-100%;
+  transition: 0.5s;
+  z-index: 9999;
+  
+}
+
+#sidebar ul{
+  list-style: none;
+  margin-top: 20px;
+}
+#sidebar li{
+  display: block;
+  height: 40px;
+  font-size: 18px;
+  color:#243238;
+  margin: auto;
+  padding: 10px ;
+  
+}
+
+#sidebar li:hover{
+  background: #545454;
+  color: white;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+
+input[type="checkbox"]:checked + #sidebar {
+  left: 0;
+  opacity: 1;
+}
+
+
+
+
+.right{
+  display: flex;
+  align-items: center; 
+  margin-right: 10px;
+
+}
+.b-right{
+  display: none;
+}
+.magnifier{
+  padding: 8px;
+}
+
+.en{
+  width: 35px;
+  height: 35px;
+  background:  rgb(49, 46, 46);
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  padding: 8px;
+  font-size: 15px;
+
+}
+
+.point{
+  padding: 8px;
+}
+
+
+
+/* 輪播圖 */
+
+#topbackground{
+  height: 50%;
+  color: white;
+}
+
+#topbackground .swiper-slide{
+  padding: 60px ;
+} 
+
+#topbackground  .title{
+  text-align: center;
+  font-size:18px;
+  line-height: 1.125;
+}
+#topbackground .subtitle{
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+#topbackground .text{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+#topbackground .text2{
+  margin-top: 30px;
+}
+.parallax-bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#topbackground .swiper-button-next{
+  display: none;
+}
+
+#topbackground .swiper-button-prev{
+  display: none;
+} 
+
+.btn{
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  color: gray;
+  margin:10px auto;
+  font-size: 10px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+
+.btn:hover{
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+
+
+@media (min-width:768px) {
+
+  #topbackground{
+    height: 50%;
+  }
+
+  #topbackground .title{
+    text-align:left;
+    font-size:18px;
+    line-height: 1.125;
+  }
+  #topbackground .subtitle{
+    text-align: left;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  
+  #topbackground .text{
+    text-align: left;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+
+  .start-font{
+    color: white;
+    margin-top: 1%;
+    text-align: left;
+    font-size: calc(20px + 10%);
+  }
+
+  .start-font p,h1{
+    text-align: left;
+  }
+
+  .btn{
+    width:calc(100px + 5%);
+    height: calc(25px + 5%);
+    margin: 0;
+  }
+
+  .btn p{
+  text-align: center;
+  padding: 5px;
+  }
+}
+
+@media (min-width:1200px){
+
+
+#topbackground{
+  height: 100vh;
+  margin-top: -200px;
+}
+
+#topbackground  .swiper-slide{
+  display: flex;
+  justify-content: start;
+  padding-left:15% ;
+}
+#topbackground .title{
+  position: absolute;
+  top:30%;
+  left: 15%;
+  font-size: calc(16px + 60%);
+}
+#topbackground .subtitle{
+  position: absolute;
+  top:45%;
+  left: 15%;
+  font-weight: 400;
+  font-size: calc(32px + 60px);
+  font-family: "Lora", serif;
+}
+
+#topbackground .text{
+  position: absolute;
+  top:60%;
+  left: 15%;
+}
+
+#topbackground .text2{
+  position: absolute;
+  top:70%;
+  text-align: left;
+}
+
+#topbackground .swiper-button-next{
+  display: block;
+}
+
+#topbackground .swiper-button-prev{
+  display: block;
+}
+
+
+#topbackground .swiper{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+.hamburger{
+  display: none;
+}
+
+
+
+.fixed-top{
+  background: none;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.left{
+  display: none;
+}
+
+.left .small-img{
+  display: none;
+}
+.b-left{
+  display: block;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.b-left a{
+  text-decoration: none;
+  color: white;
+} 
+
+.b-left a:hover{
+  transition: 0.5s;
+  color: red;
+}
+
+img:not([src]){
+  content:url('https://livedemo00.template-help.com/wt_prod-24528/images/logo-inverse-141x35.png');
+  text-align: center;
+}
+
+.b-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+.b-right .en{
+  color: black;
+  background: white;
+  margin: 10px;
+}
+
+.right{
+  display: none;
+}
+
+
+
+
+#sidebar{
+  width: 70%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border-top:1px solid rgba(255, 255, 255, 0.23) ;
+  border-bottom:1px solid rgba(255, 255, 255, 0.23) ;
+  position: sticky;
+  margin-left: auto;
+  margin-right:auto ;
+  margin-top: 6%;
+
+}
+#sidebar ul{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#sidebar ul li{
+  color: white;
+  font-size: 10px;
+}
+#sidebar ul li:hover{
+  background: none;
+  color: red;
+  transition: 0.5S;
+}
+
+
+
+}

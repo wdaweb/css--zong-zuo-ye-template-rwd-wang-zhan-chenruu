@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/top.css">
+  <link rel="stylesheet" href="./css/content.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./fontawes/CSS/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/flower.css">
+  <title>RWD</title>
+</head>
+
+<body>
+  <!-- top -->
+  <div class="fixed-top">
+    <div class="left">
+      <label for="checkmenu" class="hamburger">
+        <span></span>
+      </label>
+      <img class="small-img" src="https://livedemo00.template-help.com/wt_prod-24528/images/logo-default-141x35.png"
+        alt="">
+    </div>
+
+    <div class="b-left">
+      <p>Call us:
+        <a href="#">+1 (844) 123 456 78</a>
+      </p>
+      <p>
+        <a href="#">info@demolink.org</a>
+      </p>
+    </div>
+    <img>
+    <div class="right">
+      <i class="magnifier fas fa-search fa-2x"></i>
+      <div class="en">en</div>
+      <i class="point fas fa-ellipsis-v fa-2x"></i>
+    </div>
+    <div class="b-right">
+      <i class="magnifier fas fa-search fa-2x"></i>
+      <i class="fas fa-shopping-cart fa-2x"></i>
+      <div class="en">en</div>
+    </div>
+  </div>
+
+  <input id="checkmenu" type="checkbox">
+  <div id="sidebar">
+    <ul>
+      <li style="color: red;">HOME</li>
+      <li>PAGE</li>
+      <li>BLOG</li>
+      <li>GALLERY</li>
+      <li>ELEMENTS</li>
+      <li>SHOP</li>
+    </ul>
+  </div>
+
+
+  <div id="topbackground" class="swiper" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="parallax-bg" style="
+        background-image: url(https://livedemo00.template-help.com/wt_prod-24528/images/slide-1.jpg);
+      " data-swiper-parallax="-100%" data-swiper-parallax-duration="1000"></div>
+        <div class="title" data-swiper-parallax="-110%" data-swiper-parallax-duration="1500">WELCOME TO #1 FLOWER SHOP
+        </div>
+        <div class="subtitle" data-swiper-parallax="-120%" data-swiper-parallax-duration="3000">FLORIUM</div>
+        <div class="text" data-swiper-parallax="-130%" data-swiper-parallax-duration="6000">
+          <p>
+            Established in 1999, our flower shop provides a wide variety of the best floral arrangements.
+          </p>
+        </div>
+        <div class="text2" data-swiper-parallax="-130%" data-swiper-parallax-duration="7000">
+          <div class="btn">
+            <p>SHOP NOW</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="parallax-bg" style="
+        background-image: url(https://livedemo00.template-help.com/wt_prod-24528/images/slide-2.jpg);
+      " data-swiper-parallax="-100%" data-swiper-parallax-duration="1000"></div>
+        <div class="title" data-swiper-parallax="-110%" data-swiper-parallax-duration="1500">BEAUTIFULLY CRAFTED</div>
+        <div class="subtitle" data-swiper-parallax="-120%" data-swiper-parallax-duration="3000">BOUQUETS</div>
+        <div class="text" data-swiper-parallax="-130%" data-swiper-parallax-duration="6000">
+          <p>
+            Impress your loved one with one-of-a-kind bouquet made by our florists.
+          </p>
+        </div>
+        <div class="text2" data-swiper-parallax="-140%" data-swiper-parallax-duration="7000">
+          <div class="btn">
+            <p>SHOP NOW</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+
+  </script>
+
+
+  <script>
+    const topbackground = new Swiper("#topbackground", {
+      speed: 2000,
+      parallax: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- ======================================================== -->
+
+  <!-- 第一部分----------------------------------------------- -->
+  <div class="content">
+    <p class="title">BOUQUETS</p>
+    <div class="product">
+      <div class="product-position">
+        <div class="product1">
+          <img class="product-pic"
+            src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-01-269x331.jpg">
+          <p class="all-font">
+            <a href="#">WHITE ROSES</a>
+          </p>
+          <p class="product-price">$30.00</p>
+        </div>
+
+
+        <div class="product2">
+          <div class="ad">
+            <img class="product-pic"
+              src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-02-269x331.jpg">
+            <div class="box">NEW</div>
+          </div>
+          <p class="all-font">
+            <a href="#">PEONIES</a>
+          </p>
+          <p class="product-price">$13.00</p>
+        </div>
+
+        <div class="product3">
+          <img class="product-pic"
+            src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-03-269x331.jpg">
+          <p class="all-font">
+            <a href="#">LILIES</a>
+          </p>
+          <p class="product-price">$16.99</p>
+        </div>
+
+        <div class="product4">
+          <img class="product-pic"
+            src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-04-269x331.jpg">
+          <p class="all-font">
+            <a href="#">TULIPS</a>
+          </p>
+          <p class="product-price">$13.00</p>
+        </div>
+
+        <div class="product5">
+          <img class="product-pic"
+            src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-05-269x331.jpg">
+          <p class="all-font">
+            <a href="#">NARCISSUSES</a>
+          </p>
+          <p class="product-price">$30.00</p>
+        </div>
+
+        <div class="product6">
+          <img class="product-pic"
+            src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-06-269x331.jpg">
+          <p class="all-font">
+            <a href="#">RED ROSES</a>
+          </p>
+          <p class="product-price">$13.00</p>
+        </div>
+
+        <div class="product7">
+          <div class="ad">
+            <img class="product-pic"
+              src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-07-269x331.jpg">
+            <div class="box2">SALE</div>
+          </div>
+          <p class="all-font">
+            <a href="#">IRISES</a>
+          </p>
+          <div class="delfont">
+            <p class="product-price text-decoration">$25.00</p>
+            <p class="sale">$16.99</p>
+          </div>
+        </div>
+
+        <div class="product8">
+          <img class="product-pic"
+            src="https://livedemo00.template-help.com/wt_prod-24528/images/box-nina-img-08-269x331.jpg">
+          <p class="all-font">
+            <a href="#">VIOLETS</a>
+          </p>
+          <p class="product-price">$13.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+
+    <!-- 第二部分--------------------------------------------- -->
+    <div class="menu">
+      <div class="menu-font">
+        <div class="font1">
+          <h2 class="menu-title">245</h1>
+            <div class="line"></div>
+            <div class="menu-text">Flower Arrangements</div>
+        </div>
+
+        <div class="font2">
+          <h2 class="menu-title">182</h1>
+            <div class="line"></div>
+            <div class="menu-text">Impressive Bouquets</div>
+        </div>
+
+        <div class="font3">
+          <h2 class="menu-title">1267</h2>
+          <div class="line"></div>
+          <div class="menu-text">Satisfied clients</div>
+        </div>
+
+        <div class="font4">
+          <h2 class="menu-title">47</h2>
+          <div class="line"></div>
+          <div class="menu-text">Partners throughout <br> Worldwide</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================================== -->
+
+    <!-- 第三部分--------------------------------------------- -->
+    <div class="introduce">
+      <div class="drop-menu">
+        <div class="frame">
+          <div class="box3">
+            <img class="photo" src="https://livedemo00.template-help.com/wt_prod-24528/images/index-img-520x430.jpg"
+              width="400" height="283">
+          </div>
+        </div>
+
+
+        <div class="explain">
+          <p class="title">WHY ORGANIC?</p>
+          <div class="accordion">
+            <div class="accordion-top">
+              <label for="tab1"> > </label>
+              <p>memorable Experienc</p>
+            </div>
+            <div class="divider"></div>
+
+            <div class="box4">
+              <input type="radio" name="tab" id="tab1">
+              <div class="font">
+                When you come to our shop, you will always be greeted in a warm, friendly and approachable
+                manner. No tired faces, no stressed out or rushed service, and no leaving the store without us saying
+                “thanks”.
+              </div>
+            </div>
+
+            <div class="accordion-top">
+              <label for="tab2"> > </label>
+              <p>Qualified florists</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="box4">
+              <input type="radio" name="tab" id="tab2">
+              <div class="font">Florium florists are all highly experienced, creative, friendly, and reliable. We
+                specialize
+                in modern and impressive floral designs and we are extremely passionate about flowers, protecting our
+                environment and ensuring our clients are very happy!</div>
+            </div>
+
+            <div class="accordion-top">
+              <label for="tab3"> > </label>
+              <p>Affordable pricing</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="box4">
+              <input type="radio" name="tab" id="tab3">
+              <div class="font">Our arrangements are affordable, and our pricing is very competitive. We believe that
+                breathtaking elegance should be achievable on any budget! That’s also one of the reasons why our
+                regular
+                clients and partners value our flower shop.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-posistion">
+          <div class="card-border">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <div class="card-text">
+              <p class="card-title">
+                <a href="#">FREE SHIPPING</a>
+              </p>
+              <p class="card-font">Enjoy our fast & free delivery</p>
+            </div>
+          </div>
+
+          <div class="card-border">
+            <i class="fab fa-weixin fa-2x"></i>
+            <div class="card-text">
+              <p class="card-title">
+                <a href="#"> CUSTOMER CARE</a>
+              </p>
+              <p class="card-font">Always ready to help you</p>
+            </div>
+          </div>
+
+          <div class="card-border">
+            <i class="far fa-heart fa-2x"></i>
+            <div class="card-text">
+              <p class="card-title">
+                <a href="#">UNIQUE BOUQUETS</a>
+              </p>
+              <p class="card-font">All our bouquets are special</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================================================== -->
+
+    <!-- 第四部份--------------------------------------------- -->
+
+    <div id="teampeople" class="swiper">
+      <p class="title">OUR CLIENTS</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <p class="describe">
+            I received bouquets from Florium, and now it’s my #1floral arrangements provider.The quality of theflowers
+            is great they last a long time. And the creativity of the bouquets is wonderful
+          </p>
+          <img class="people1" src="https://livedemo00.template-help.com/wt_prod-24528/images/user-7-87x87.jpg">
+          <p class="author">PATRICK GOODMAN</p>
+          <p class="status">Client</p>
+        </div>
+        <div class="swiper-slide">
+          <p class="describe">
+            Thank you so much for delivering beautiful flowers to my parents today. My mother called to say how
+            gorgeous they were! I am really delighted with your level of service.
+          </p>
+          <img class="people1" src="https://livedemo00.template-help.com/wt_prod-24528/images/user-8-87x87.jpg">
+          <p class="author">Kate Smith</p>
+          <p class="status">Client</p>
+        </div>
+        <div class="swiper-slide">
+          <p class="describe">
+            All I can say is WOW! You definitely have a customer for life. I have been looking for a really
+            high-quality
+            and affordable flower provider for years, and now I’m so glad I’ve found you.
+          </p>
+          <img class="people1" src="https://livedemo00.template-help.com/wt_prod-24528/images/user-9-87x87.jpg">
+          <p class="author">SAM WILSON</p>
+          <p class="status">Client</p>
+        </div>
+      </div>
+      <div class="swiper-pagination2">
+      </div>
+
+      <div class="post">
+        <div class="post-first">
+          <span class="author-font">PATRICK GOODMAN</span>
+          <span class="status-font">Client</span>
+        </div>
+        <div class="post-secend">
+          <span class="author-font">Kate Smith</span>
+          <span class="status-font">Client</span>
+        </div>
+        <div class="poat-third">
+          <span class="author-font">SAM WILSON</span>
+          <span class="status-font">Client</span>
+        </div>
+      </div>
+
+      <div class="button">
+        <a class="prev">prev</a>
+        <a class="next">next</a>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper("#teampeople", {
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+          hideOnClick: true,
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: 1,
+          }
+        },
+        pagination: {
+          el: ".swiper-pagination2",
+          clickable: true
+        },
+      });
+    </script>
+
+    <!-- =================================================== -->
+
+    <!-- 第五部分-------------------------------------------- -->
+
+    <p class="title">GALLERY</p>
+    <div class="flower-all">
+      <div class="flower-list">
+        <div class="col-left">
+          <div class="row-left-top">
+            <div class="col-ll">
+              <div class="row-top">
+                <div class="flowercard">
+                  <img class="flower"
+                    src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-1-270x250.jpg">
+                  <div class="flowercard-content">
+                    <p class="all-font">
+                      <a href="#">ROSES</a>
+                    </p>
+                    <p class="flowercard-price">$16.99</p>
+
+                    <div class="circle-all">
+                      <div class="circle">
+                        <i class="magnifier fas fa-search fa-1x"></i>
+                      </div>
+                      <div class="circle2">
+                        <i class="fas fa-shopping-cart fa-1x"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-bottom">
+                <div class="flowercard">
+                  <img class="flower"
+                    src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-5-270x250.jpg">
+                  <div class="flowercard-content">
+                    <p class="all-font">
+                      <a href="#">HAND-TIED BOUQUETS</a>
+                    </p>
+                    <p class="flowercard-price">$13.99</p>
+
+                    <div class="circle-all">
+                      <div class="circle">
+                        <i class="magnifier fas fa-search fa-1x"></i>
+                      </div>
+                      <div class="circle2">
+                        <i class="fas fa-shopping-cart fa-1x"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lr">
+              <div class="flowercard">
+                <img class="flower"
+                  src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-2-270x530.jpg">
+                <div class="flowercard-content">
+                  <p class="all-font">
+                    <a href="#">TULIPS</a>
+                  </p>
+                  <p class="flowercard-price">$10.99</p>
+
+                  <div class="circle-all">
+                    <div class="circle">
+                      <i class="magnifier fas fa-search fa-1x"></i>
+                    </div>
+                    <div class="circle2">
+                      <i class="fas fa-shopping-cart fa-1x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-left-bottom">
+            <div class="flowercard">
+              <img class="flower"
+                src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-7-570x250.jpg">
+              <div class="flowercard-content">
+                <p class="all-font">
+                  <a href="#">BIRTHDAY BOUQUETS</a>
+                </p>
+                <p class="flowercard-price">$12.99</p>
+
+                <div class="circle-all">
+                  <div class="circle">
+                    <i class="magnifier fas fa-search fa-1x"></i>
+                  </div>
+                  <div class="circle2">
+                    <i class="fas fa-shopping-cart fa-1x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-right">
+          <div class="row-right-top">
+            <div class="col-l">
+              <div class="flowercard">
+                <img class="flower"
+                  src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-3-270x250.jpg">
+                <div class="flowercard-content">
+                  <p class="all-font">
+                    <a href="#">DAFFODILS</a>
+                  </p>
+                  <p class="flowercard-price">$8.99</p>
+
+                  <div class="circle-all">
+                    <div class="circle">
+                      <i class="magnifier fas fa-search fa-1x"></i>
+                    </div>
+                    <div class="circle2">
+                      <i class="fas fa-shopping-cart fa-1x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-r">
+              <div class="flowercard">
+                <img class="flower"
+                  src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-4-270x250.jpg">
+                <div class="flowercard-content">
+                  <p class="all-font">
+                    <a href="#">BASKET BOUQUETS</a>
+                  </p>
+                  <p class="flowercard-price">$10.99</p>
+
+                  <div class="circle-all">
+                    <div class="circle">
+                      <i class="magnifier fas fa-search fa-1x"></i>
+                    </div>
+                    <div class="circle2">
+                      <i class="fas fa-shopping-cart fa-1x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-right-bottom">
+            <div class="flowercard">
+              <img class="flower"
+                src="https://livedemo00.template-help.com/wt_prod-24528/images/masonry-gallery-6-570x530.jpg">
+              <div class="flowercard-content">
+                <p class="all-font">
+                  <a href="#">WEDDING BOUQUETS</a>
+                </p>
+                <p class="flowercard-price">$14.99</p>
+
+                <div class="circle-all">
+                  <div class="circle">
+                    <i class="magnifier fas fa-search fa-1x"></i>
+                  </div>
+                  <div class="circle2">
+                    <i class="fas fa-shopping-cart fa-1x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================================================== -->
+
+    <!-- 第六部分--------------------------------------------- -->
+
+    <div class="staycard">
+      <div class="stay-top">
+        <div class="staytitle title">
+          <p class="font-bold">STAY</p>
+          <p>CONNECTED</p>
+        </div>
+        <p class="stay-font">Subscribe to our newsletter</p>
+      </div>
+      <div class="send">
+        <div class="send-text">
+          <input type="text" value="Enter your e-mail address"
+            onfocus="javascript:if(this.value=='Enter your e-mail address')this.value='';">
+          <p class=" stay-text">The text field is required</p>
+          <div class="font-under"></div>
+        </div>
+        <div class="stay-btn">SUBSCRIBE</div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <!-- 第七部分--------------------------------------------- -->
+    <div class="blog">
+      <p class="title">OUR FLORISTS</p>
+      <div id="siru2" class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://livedemo00.template-help.com/wt_prod-24528/images/team-4-270x227.jpg">
+            <p class="all-font">
+              <a href="#">REBECCA MARTINEZ</a>
+            </p>
+            <p class="blog-font">Rebecca is the owner of Florium and a highly experienced florist.</p>
+            <div class="blog-icon">
+              <i class=" fab fa-facebook-f"></i>
+              <i class=" fab fa-twitter"></i>
+              <i class=" fab fa-instagram"></i>
+              <i class=" fab fa-google-plus-g"></i>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://livedemo00.template-help.com/wt_prod-24528/images/team-5-270x227.jpg">
+            <p class="all-font">
+              <a href="#">EMMA JOHNSON</a>
+            </p>
+            <p class="blog-font">Emma is Florium’s Lead Florist with a professional certification.</p>
+            <div class="blog-icon">
+              <i class=" fab fa-facebook-f"></i>
+              <i class=" fab fa-twitter"></i>
+              <i class=" fab fa-instagram"></i>
+              <i class=" fab fa-google-plus-g"></i>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://livedemo00.template-help.com/wt_prod-24528/images/team-6-270x227.jpg">
+            <p class="all-font">
+              <a href="#">Jane Smith</a>
+            </p>
+            <p class="blog-font">Jane Smith is one of the floral designers at Florium.</p>
+            <div class="blog-icon">
+              <i class=" fab fa-facebook-f"></i>
+              <i class=" fab fa-twitter"></i>
+              <i class=" fab fa-instagram"></i>
+              <i class=" fab fa-google-plus-g"></i>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://livedemo00.template-help.com/wt_prod-24528/images/team-7-270x227.jpg">
+            <p class="all-font">
+              <a href="#">SAMANTHA WILLIAMS</a>
+            </p>
+            <p class="blog-font">Samantha helps our customers choose the right bouquet.</p>
+            <div class="blog-icon">
+              <i class=" fab fa-facebook-f"></i>
+              <i class=" fab fa-twitter"></i>
+              <i class=" fab fa-instagram"></i>
+              <i class=" fab fa-google-plus-g"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      const siru2 = new Swiper("#siru2", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1200: {
+            slidesPerView: 4,
+          }
+
+        }
+
+      });
+    </script>
+
+    <!-- =================================================== -->
+
+    <!-- footer--------------------------------------------- -->
+    <div class="footer-all">
+      <div class="footer-pic">
+        <p>OUR GALLERY</p>
+        <div class="six-pic">
+          <div class="pic">
+            <a href="#">
+              <img src="https://livedemo00.template-help.com/wt_prod-24528/images/grid-gallery-1-93x93.jpg">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="https://livedemo00.template-help.com/wt_prod-24528/images/grid-gallery-2-93x93.jpg">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="https://livedemo00.template-help.com/wt_prod-24528/images/grid-gallery-3-93x93.jpg">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="https://livedemo00.template-help.com/wt_prod-24528/images/grid-gallery-4-93x93.jpg">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="https://livedemo00.template-help.com/wt_prod-24528/images/grid-gallery-5-93x93.jpg">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="https://livedemo00.template-help.com/wt_prod-24528/images/grid-gallery-6-93x93.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-list">
+        <div class="footer-left">
+          <p>NAVIGATION</p>
+          <div class="list">
+            <ul>
+              <li>
+                <a href="#">Our Team</a>
+              </li>
+              <li>
+                <a href="#">New Products</a>
+              </li>
+              <li>
+                <a href="#">Top Sellers</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Roses</a>
+              </li>
+              <li>
+                <a href="#">Tulips</a>
+              </li>
+              <li>
+                <a href="#">Lilies</a>
+              </li>
+              <li>
+                <a href="#">Irises</a>
+              </li>
+              <li>
+                <a href="#">Mixed Bouquets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <p>GET IN TOUCH</p>
+          <div class="footer-menu">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>
+              <a href="#"> 523 Sylvan Ave, 5th Floor <br>
+                Mountain View, CA 94041 USA</a>
+            </p>
+            <i class="fas fa-phone-alt"></i>
+            <p>
+              <a href="#"> (+844) 123 456 78</a>
+            </p>
+            <i class="far fa-envelope"></i>
+            <p>
+              <a href="#">info@demolink.org</a>
+            </p>
+          </div>
+          <div class="icon">
+            <i class="border fab fa-facebook-f"></i>
+            <i class="border fab fa-twitter"></i>
+            <i class="border fab fa-instagram"></i>
+            <i class="border fab fa-google-plus-g"></i>
+            <i class="border fab fa-skype"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-end">
+      <p>© 2022 Florium. All rights reserved. Privacy Policy.</p>
+    </div>
+
+    <!-- =================================================== -->
+</body>
+
+</html>

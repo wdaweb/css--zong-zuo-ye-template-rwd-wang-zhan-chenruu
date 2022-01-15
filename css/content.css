@@ -1,0 +1,1325 @@
+.content{
+  height: auto;
+  overflow: hidden;
+  margin-top:5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Lora", serif;
+}
+
+
+/* 第一區------------------------------------------------- */
+.product{
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+.product-position{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-pic{
+  display: block;
+  border-radius: 3%;
+  margin: 30px auto ;
+}
+
+.all-font{
+  font-family: "Lora", serif;
+  margin: auto;
+  text-align: center;
+}
+
+.all-font a{
+  text-decoration:none;
+  color:black;
+}
+.all-font a:hover{
+  transition: 0.5s;
+  color: red;
+}
+
+.product-price{
+  text-align: center;
+  color: gray;
+  font-size: 10px;
+}
+
+.ad{
+  position: relative;
+}
+.box{
+  width: 40px;
+  height: 20px;
+  padding: 3px 0; 
+  background:white;
+  text-align: center;
+  color:black;
+  font-size: 4px;
+  z-index: 10;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}
+
+.delfont{
+  display: flex;
+  justify-content: center;
+}
+
+.sale{
+  color: red;
+  text-align: center;
+  font-size:10px;
+}
+
+.text-decoration{
+  text-decoration:line-through;
+}
+
+.box2{
+  width: 40px;
+  height: 20px;
+  padding: 3px 0; 
+  background:red;
+  text-align: center;
+  color:white;
+  font-size: 4px;
+  z-index: 10;
+  position: absolute;
+  right: 20%;
+  bottom: 87%;
+}
+
+/* --------------------------------------------------------- */
+
+/* 第二區---------------------------------------------------- */
+.menu{
+  width: 100%;
+  height: 300px;
+  background: url('https://livedemo00.template-help.com/wt_prod-24528/images/parallax-2.jpg') no-repeat center/cover;
+  margin-top: 30px;
+  display: flex;
+  align-self: center;
+  justify-content: center; 
+}
+
+
+.menu-font{
+  width: 80%;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.menu-title{
+  font-size: 30px;
+  font-weight: 200;
+}
+.menu-text{
+  font-size: 14px;
+}
+
+
+.line{
+  width: 30px;
+  height: 0.8px;
+  background: white;
+  margin: 10px auto;
+}
+
+.font1,
+.font2,
+.font3,
+.font4{
+margin: 15px auto;
+font-family: "Lora", serif;
+line-height: 1.5;
+font-weight: 400;
+}
+
+/* --------------------------------------------------------- */
+
+/* 第三區---------------------------------------------------- */
+.introduce{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.box3{
+  width: 280px;
+  height: 350px;
+  border: 0.8px solid #e1e1e1;
+  margin: 20px auto ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo{
+  display:block;
+  margin: auto;
+}
+
+.explain{
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.accordion{
+  margin-top: 30px;
+}
+
+.accordion-top{
+  display: flex;
+}
+
+.accordion-top p{
+  font-family: "Lora", serif;
+  font-size: 14px;
+  vertical-align: middle;
+  margin: auto 20px;
+  font-weight: 500;
+  color: #5f5c5c;
+  line-height:1.6;
+  letter-spacing:.02em;
+}
+
+.accordion label{
+  display: block;
+  width: 8%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: white;
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+
+
+.divider{
+  width: 95%;
+  height: 0.5px;
+  background: #e1e1e1;
+  margin: 10px auto;
+}
+
+.font{
+  font-size: 10px;
+  display: block;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  height: 0px;
+  overflow: hidden;
+  transition: 0.5;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input[type=radio]:checked +.font{
+  height: 100px;
+}
+input[type=radio]{
+  display: none;
+}
+
+
+.card{
+  width: inherit;
+  margin-top: 20px;
+}
+
+.card-border{
+  width: 90%;
+  height: 90%;
+  border: 1px solid #e1e1e1;
+  margin: 20px auto ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:10px ;
+}
+
+.card-title{
+  display: block;
+  margin: auto;
+  font-family: "Lora", serif;
+  margin: 10px;
+  
+}
+
+.card-title a{
+  text-decoration: none;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+.card-font{
+  display: block;
+  margin: auto;
+  color: gray;
+  font-size: 10px;
+  letter-spacing: .05em;
+
+}
+
+/* -------------------------------------------------------- */
+/* 第四區--------------------------------------------------- */
+
+#teampeople{
+  width: 100%;
+  height: 100%;
+  background: url(https://livedemo00.template-help.com/wt_prod-24528/images/bg-pattern-1.jpg);
+}
+
+#teampeople .title{
+  color:black ;
+  font-family: "Lora", serif;
+  letter-spacing:.05em;
+  text-align: center;
+  font-weight:400;
+  margin:0;
+  padding-top:10%;
+
+}
+
+
+#teampeople .swiper-slide{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+
+.swiper-pagination2{
+  display: none;
+}
+
+.describe{
+  width: 100%;
+  text-align: center;
+  color: #858585;
+  line-height: 2;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15%;
+}
+
+.author{
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #151515;
+  margin: 1%;
+  letter-spacing: .08em;
+  cursor: pointer;
+}
+
+
+.status{
+  font-size: 8px;
+  color: gray;
+  display: block;
+  text-align: center;
+  letter-spacing: .05em;
+}
+
+.people1{
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto;
+}
+
+.button{
+  width: 100%;
+  position: absolute;
+  top:50%;
+  z-index: 7;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+.next,
+.prev{
+  color: #a3a3a3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin: 10px;
+  letter-spacing: .05em;
+  font-size: 14px;
+  border-bottom: 2px solid#a3a3a3;
+  padding-bottom: 1%;
+  margin: 5%;
+}
+
+.next:hover,
+.prev:hover{
+  color: #151515;
+  transition: 0.1s;
+  border-bottom:2px solid #151515;
+}
+
+.post{
+  display: none;
+}
+
+
+/* -------------------------------------------------------- */
+/* 第五區--------------------------------------------------- */
+.flower-all{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower {
+  margin: auto;
+}
+
+.flowercard{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.flowercard-content{
+  width: 270px;
+  height: 150px;
+  background: #f9faf9;
+  margin: auto;
+  padding-top: 20px;
+
+}
+
+.flowercard-price{
+  display: block;
+  margin: auto;
+  color: gray;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.row-left-bottom .flower{
+  width: 270px;
+}
+
+.row-right-bottom .flower{
+  width: 270px;
+
+}
+
+.circle-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #777777;
+  margin: 10px;
+}
+
+.circle i{
+  margin: auto;
+  padding: 16px;
+
+}
+.circle:hover{
+  transition: 1s;
+  background: #f74860;
+}
+.circle2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f74860;
+  margin: 10px;
+}
+
+.circle2 i{
+  margin: auto;
+  padding: 16px;
+}
+
+.circle2:hover{
+  transition: 1s;
+  background: #777777;
+}
+
+/* ------------------------------------------------------ */
+/* 第六區------------------------------------------------- */
+.staycard{
+  margin-top: 50px;
+  width: inherit;
+  height: 300px;
+  background: url('https://livedemo00.template-help.com/wt_prod-24528/images/parallax-4.jpg') no-repeat center/cover;
+  padding: 10px;
+}
+
+  .staytitle{
+    display: flex;
+    color: white;
+    justify-content: center;
+    letter-spacing: .05em;
+    margin-bottom: 3%;
+  }
+  .font-bold{
+    font-weight: bolder;
+    margin-right:1% ;
+  }
+  .stay-font{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .05em;
+    font-family: "Open Sans", sans-serif
+  }
+  
+  input{
+    width: 200px;
+    color: white;
+    border: none;
+    background: transparent;
+    margin:auto;
+    margin-top: 60px;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    letter-spacing: .08em;
+  }
+
+  input:focus{ 
+    outline: none;
+  }
+
+  .font-under{
+    width: 90%;
+    height: 1px;
+    background: red;
+    margin: auto;
+  }
+  .stay-text{
+    display: block;
+    color: white;
+    text-align: right;
+    font-size: 9px;
+    margin-right: 20px;
+  }
+
+  .stay-btn{
+    width: 90%;
+    height: 50px;
+    background: white;
+    color:#777777 ;
+    margin: 10px auto;
+    padding:  15px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    font-family:  "Open Sans", sans-serif;
+  }
+
+  .stay-btn:hover{
+    transform: 0.5s;
+    background: #151515;
+    color: white;
+  }
+
+  /* ----------------------------------------------------- */
+
+  /* 第七區------------------------------------------------ */
+  .blog .title{
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .blog img{
+    display: block;
+    margin: 20px auto;
+  }
+
+  .all-font{
+    color: #404040;
+    margin-bottom: 1%;
+    font-weight: 100;
+    font-size: 16px;
+  }
+
+  .blog-font{
+    color: #777777;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    font-weight: 400;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    margin-top: 5px;
+  }
+  .blog-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: black;
+  }
+  .blog-icon i{
+    margin-left: 20px;
+  }
+
+
+
+.font-left{
+    float: left;
+    color:gray;
+    margin: 10px;
+    font-family: "Lora", serif;
+    letter-spacing:.05em;
+    font-weight: bolder;
+    line-height:1.6;
+  }
+
+/* .font-right{
+  float: right;
+  color:gray;
+  margin-right: 10px;
+  font-family: "Lora", serif;
+  letter-spacing:.05em;
+  font-weight: bolder;
+  line-height:1.6;
+}
+
+
+.font-left::after{
+  content: '';
+  display: block;
+  width: 35px;
+  border-bottom: 2px solid gray;
+  margin: 2px auto;
+} */
+
+/* .font-right{
+  content: '';
+  display: block;
+  width: 35px;
+  border-bottom: 2px solid gray;
+  margin: 2px auto;
+} */
+
+/* --------------------------------------------------- */
+
+
+
+
+
+@media (min-width:768px) {
+  .title{
+    font-size: calc(25px + 0.8rem);
+    font-weight: 100;
+  }
+  /* 第一區---------------------------------------- */
+  
+    .product{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin: auto;
+      
+    }
+  
+    .product-position{
+      width: 85%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+    }
+    .product1 img,
+    .product2 img,
+    .product3 img,
+    .product4 img,
+    .product5 img,
+    .product6 img,
+    .product7 img,
+    .product8 img {
+      max-width: 80%;
+      max-height:70%;
+      text-align: center;
+    
+    } 
+  
+    .product1,
+    .product2,
+    .product3,
+    .product4,
+    .product5,
+    .product6,
+    .product7,
+    .product8{
+      max-width: 30%;
+      max-height:20%;
+      text-align: center;
+      margin:auto 1%;
+    }
+
+  /* -------------------------------------------------- */
+  /* 第二區--------------------------------------------- */
+    .menu{
+      width: 100%;
+    }
+
+    .font1,
+    .font2,
+    .font3,
+    .font4{
+      width: 20%;
+      text-align: center;
+    }
+    .menu-text{
+      font-size: calc(16px + 20%);
+      letter-spacing: .05em;
+    }
+
+    /* ---------------------------------------------------- */
+    /* 第三區----------------------------------------------- */
+    .introduce{
+      display: flex;
+      justify-content: start;
+    }
+    .drop-menu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .frame{
+      width: 50%;
+    }
+
+    .explain{
+      width: 50%;
+    }
+
+    .explain .title{
+      text-align: left;
+    }
+    .accordion label{
+      display: block;
+      max-width: 8%;
+      max-height: 10%;
+    }
+
+  
+    
+    .card{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 20px;
+    }
+    .card-border{
+      width: 45%;
+      height: 40%;
+      display: flex;
+      flex-direction: row;
+      margin: 5px;
+    }
+    
+    .card-posistion{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    .card-text{
+      text-align: left;
+      margin: 10px;
+    }
+    .card-title{
+      margin: 0;
+      line-height: 1em;
+      font-size:calc(16px + 1rem) ;
+    }
+    .card-font{
+      font-size: calc(10px + 0.3rem);
+    }
+
+    /* -------------------------------------------- */
+    /* 第四區--------------------------------------- */
+  
+    #teampeople{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .people1,
+    .author,
+    .status,
+    .prev,
+    .next{
+      display: none;
+    }
+
+    .describe{
+      padding-left: 10%;
+      padding-right: 10%;
+      font-size: calc(15px + 0.2em);
+      margin-bottom: 5%;
+    }
+
+
+    .swiper-pagination2{
+      width: 100%;
+      display: flex;
+      justify-content:space-evenly;
+      position: absolute;
+      top:60%;
+      z-index: 99999;
+    }
+
+    .swiper-pagination2 .swiper-pagination-bullet{
+      width:80px;
+      height:80px;
+      margin: auto;
+    }
+  
+    .swiper-pagination2 .swiper-pagination-bullet:nth-child(1){
+      background:url('https://livedemo00.template-help.com/wt_prod-24528/images/user-7-87x87.jpg') no-repeat center/cover;
+    }
+    .swiper-pagination2 .swiper-pagination-bullet:nth-child(2){
+      background:url('https://livedemo00.template-help.com/wt_prod-24528/images/user-8-87x87.jpg') no-repeat center/cover;
+    }
+    .swiper-pagination2 .swiper-pagination-bullet:nth-child(3){
+      background:url('https://livedemo00.template-help.com/wt_prod-24528/images/user-9-87x87.jpg') no-repeat center/cover;
+  
+    }
+
+    .post{
+      width: 85%;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin-bottom:5%;
+      margin-left: 6%;
+    }
+
+    .author-font{
+      font-size: 14px;
+      font-weight: 400;
+      color: #151515;
+      margin: 1%;
+      letter-spacing: .08em;
+      cursor: pointer;
+    }
+
+    .status-font{
+    font-size: 8px;
+    color: gray;
+    letter-spacing: .05em;
+    }
+  
+    /* -------------------------------------------- */
+    /* 第六區---------------------------------------- */
+
+    
+    .flower-all{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+
+    .flower-list{
+      width: 90%;
+    }
+
+    .flowercard{
+      margin: 5%;
+    }
+
+
+    .row-left-bottom .flower{
+      width: 270px;
+    }
+
+    .row-right-bottom .flower{
+      width: 270px;
+
+    }
+
+    /* ---------------------------------------------- */
+    /* 第七區----------------------------------------- */
+    .staycard{
+      padding: 5%;
+    }
+    
+    .staytitle {
+      display: flex;
+      color: white;
+      justify-content: start;
+      font-size: 26px;
+    }
+    
+    .font-bold{
+      font-weight: 700 !important;
+    }
+    .stay-font{
+      text-align: left;
+      margin: 30px;
+    }
+    
+    
+    .send{
+      display: flex;
+    }
+    .send-text {
+      width: 80%;
+    }
+
+    .send-text input{
+      font-size: 15px;
+    }
+    .stay-text{
+      margin-right: 5%;
+    }
+    .stay-btn{
+      width: 20%;
+    }
+
+    /* ----------------------------------------------- */
+
+    .blog{
+      padding: 5%;
+    }
+    .all-font{
+      font-size: calc(16px + 2%);
+    }
+    .blog-font{
+      font-size: calc(13px + 2%);
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    #siru2 .swiper-slide img{
+      width: 90%;
+      height: 90%;
+    }
+    #siru2 .swiper-wrapper{
+      margin-bottom:6% ;
+    }
+
+    /* -------------------------------------------------- */
+
+  }
+  
+  @media(min-width:1200px) {
+    /* 第一區--------------------------------------------- */
+    .product-position{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* -------------------------------------------------- */
+    /* 第二區--------------------------------------------- */
+    .menu-title{
+      font-size: calc(30px + 1em);
+      font-weight: 400;
+
+    }
+    /* -------------------------------------------------- */
+    /* 第三區--------------------------------------------- */
+    .introduce{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 10%;
+    }
+    .drop-menu{
+      width: 90%;
+      margin: auto;
+    }
+
+    .frame{ 
+      width: 50%;
+      margin-right:-5% ;
+    }
+    
+    .box3{
+      width: 70%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      position: relative;
+    }
+    .photo{
+      width: 100%;
+      height: 95%;
+      position: absolute;
+      left:-10%;
+    }
+
+    
+    .explain{
+      width: 50%;
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    } 
+
+    .explain .title{
+      text-align: left;
+      font-size: calc(25px + 100%);
+      margin-left: 10px;
+    }
+
+    .accordion{
+      max-width: 80%;
+      margin-top: 40px;
+    }
+
+    .accordion-top{
+      margin: 15px;
+    }
+    .accordion-top p{
+      font-size: calc(20px + 30%);
+      text-transform:uppercase;
+    }
+
+    .card{
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      /* background: rgb(236, 232, 197); */
+    }
+    .card-border{
+      width: 28%;
+      height: auto;
+      margin: auto 15px;
+      padding: auto 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* 第四區---------------------------------------------- */
+
+    #siru2 .swiper-wrapper{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #siru2 .swiper-slide{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1%;
+
+    }
+    #siru2 .swiper-slide img{
+      width: 80%;
+      height: 40%;
+    }
+
+  .all-font{
+    margin: 0;
+  }
+    
+  .prev,
+  .next{
+    display: none;
+  }
+  .people1{
+    display: none;
+  }
+
+  #teampeople{
+    height: 600px;
+    position: relative;
+  }
+
+  #teampeple .title{
+    font-size: calc(26px + 1em);
+  }
+
+  #teampeople .swiper-slide{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .author,
+  .status{
+    display: none;
+  }
+
+  .swiper-pagination2{
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 15%;
+    padding-right: 15%;
+    z-index: 99999;
+  }
+
+
+  .post{
+    padding-right:12%;
+    padding-left: 13%;
+    margin-bottom: 13%;
+  }
+
+
+
+  .swiper-pagination2 .swiper-pagination-bullet:nth-child(1){
+    background:url('https://livedemo00.template-help.com/wt_prod-24528/images/user-7-87x87.jpg') no-repeat center/cover;
+  }
+  .swiper .swiper-pagination-bullet:nth-child(2){
+    background:url('https://livedemo00.template-help.com/wt_prod-24528/images/user-8-87x87.jpg') no-repeat center/cover;
+  }
+  .swiper .swiper-pagination-bullet:nth-child(3){
+    background:url('https://livedemo00.template-help.com/wt_prod-24528/images/user-9-87x87.jpg') no-repeat center/cover;
+
+  }
+
+    /* --------------------------------------------------- */
+    /* 第五區----------------------------------------------- */
+    .flower-all{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5%;
+    
+    }
+    .flower-list {
+      width: 80%;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    
+    .flowercard {
+      width: 100%;
+      height: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 5px;
+      margin: 0;
+    }
+    
+    .flower{
+      width: 95%;
+      height: 95%;
+      object-fit: cover;
+    }
+    
+    .flowercard-content{
+      display: none;
+    }
+    
+    /* 左邊----------------------------------------- */
+    
+    .col-left {
+      width: 50%;
+      height: 100%;
+    
+    }
+    
+    .row-left-top{
+      width: 100%;
+      height: 60%;
+      display: flex;
+      margin-bottom: 4%;
+    }
+    
+    .row-left-bottom{
+      width: 100%;
+      height: 40%;
+    
+    }
+    
+    .col-ll{
+      width: 50%;
+      height: 100%;
+    }
+    
+    .col-lr{
+      width: 50%;
+      height: 100%;
+    }
+    
+    .col-lr .flower{
+      height: 98%;
+    }
+    
+    
+    .row-top{
+      height: 50%;
+    
+    }
+    
+    .row-bottom{
+      height: 50%;
+    
+    }
+    
+    .row-left-bottom .flower{
+      width: 98%;
+      height: 85%;
+    }
+    
+    
+    /* 右邊 ----------------------------------*/
+    .col-right{
+      width: 50%;
+      height: 100%;
+    
+    }
+    
+    .row-right-top{
+      width: 100%;
+      height: 30%;
+      display: flex;
+    }
+    
+    .row-right-bottom{
+      width: 100%;
+      height: 70%;
+    
+    }
+    .col-l{
+      width: 50%;
+      height: 100%;
+    }
+    
+    .col-r{
+      width: 50%;
+      height: 100%;
+    }
+    
+    .row-right-bottom .flower{
+      width: 98%;
+    }
+
+    /*---------------------------------------------------- */
+    /* 第六區---------------------------------------------- */
+
+    .staycard{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .stay-top{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+
+    .staytitle{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font-size: calc(26px + 1em);
+    }
+    .stay-font{
+      font-size: 15px;
+      margin: 0;
+    }
+    
+    .send{
+      width: 70%;
+      display: flex;
+      align-items: flex-end;
+      
+    }
+    .stay-btn{
+      margin: 0;
+    }
+
+    /* --------------------------------------------------- */
+    /* 第七區---------------------------------------------- */
+    .blog{
+      width: 100%;
+      height:10%;
+      padding: 0;
+    }
+
+    .blog .title{
+      font-size:calc(26px + 1em) ;
+    }
+
+  }
